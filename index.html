@@ -5,8 +5,33 @@
     <title>Title</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
+<header>
+    <div class="headerContainer">
+        <div class="logo">
+            <img src="./assets/img/LOGO.png" alt="">
+        </div>
+        <input type="checkbox" id="menuCheckBox">
+        <nav role="navigation">
+            <label for="menuCheckBox" class="toggleBtn" data-open="menu" data-close="close" onclick></label>
+                <ul class="mainMenu">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">BOLG</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">CONTACT</a></li>
 
+                </ul>
+        </nav>
+    </div>
+
+</header>
+<script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+<script src="./assets/js/index.js"></script>
 </body>
 </html>
