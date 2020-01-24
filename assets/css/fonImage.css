@@ -1,0 +1,62 @@
+.fonImage{
+    background: url("../img/slider_bg.png");
+    background-size: cover;
+    min-height: 750px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titleTextOne{
+    background: #FFEA00;
+    padding: 0 13px;
+    font-size: 70px;
+    margin-left: 159px;
+    width: 370px;
+    height: 77px;
+}
+
+.titleTextTwo{
+    background: #FFEA00;
+    padding: 0 13px;
+    font-size: 70px;
+    margin-left: 159px;
+    margin-top: 10px;
+    width: 620px;
+    height: 77px;
+}
+
+.descriptionTextOne{
+    text-align: center;
+    width: 376px;
+    height: 32px;
+    background:#414146 ;
+    padding: 6px 6px;
+    color: white;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 159px;
+}
+.descriptionTextTwo{
+    text-align: center;
+    width: 363px;
+    height: 32px;
+    background:#414146 ;
+    padding: 6px 6px;
+    color: white;
+    font-size: 22px;
+    margin-top: 3px;
+    margin-left: 159px;
+}
+.descriptionTextThree{
+    text-align: center;
+    width: 297px;
+    height: 32px;
+    background:#414146 ;
+    padding: 5px 6px;
+    color: white;
+    font-size: 22px;
+    margin-top: 3px;
+    margin-left: 159px;
+}
+
