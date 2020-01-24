@@ -17,7 +17,7 @@ header{
 }
 
 .headerContainer{
-    width: 1200px;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -44,3 +44,52 @@ ul{
 nav{
     margin-top: 20px;
 }
+
+@media screen and (max-width: 992px) {
+    .headerContainer{
+        width: 100%;
+        display: flex;
+    }
+    .logo{
+        padding-left: 50px;
+    }
+    .mainMenu{
+        display: none;
+    }
+    .mainMenu li {
+        width: 100%;
+        display: block;
+        font-size: 12px;
+    }
+    .mainMenu a{
+        display: block;
+        padding: 8px;
+    }
+    .toggleBtn{
+        text-align: center;
+        display: block;
+        cursor: pointer;
+        color: black;
+        margin-top: 30px;
+    }
+    .toggleBtn:after{
+        content:attr(data-open);
+        display: block;
+        margin-right: 50px;
+    }
+    #menuCheckBox:checked + nav[role="navigation"] .mainMenu{
+        display: block;
+    }
+    #menuCheckBox:checked + nav[role="navigation"] .toggleBtn:after{
+        content:attr(data-close)
+    }
+    .headerContainer a{
+        margin-right: -65px;
+    }
+    .mainMenu{
+        position: relative;
+        top: 30px;
+        right: 115px;
+    }
+}
+
