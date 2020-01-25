@@ -1,0 +1,27 @@
+.generalContainerSlider{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin-top: 39px;
+    margin-bottom: 120px;
+}
+
+.prenButton{
+    background: black;
+    width: 46px;
+    height: 65px;
+}
+
+.prenButton img{
+    padding: 18px 16px 17px 13px;
+}
+
+.nextButton{
+    background: black;
+    width: 46px;
+    height: 65px;
+}
+
+.nextButton img{
+    padding: 18px 13px 17px 16px;
+}
