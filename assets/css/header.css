@@ -63,7 +63,8 @@ nav{
     }
     .mainMenu a{
         display: block;
-        padding: 8px;
+        margin-bottom: 8px;
+        padding: 6px;
     }
     .toggleBtn{
         text-align: center;

@@ -1,0 +1,101 @@
+.portfolioText{
+    margin-top: 90px;
+    text-align: center;
+    color: #424147;
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+.portfolioDescription{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 21px;
+    color: #424147;
+}
+
+.portfolioContainer{
+    margin: 60px 0 90px ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.descriptionPortfolioImg{
+    width: 250px;
+    height: 85px;
+    background-color: #414146;
+}
+
+.descriptionPortfolioImg p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    line-height: 23px;
+    font-size: 18px;
+    padding: 17px 43px 25px;
+}
+
+.fonImageIcon{
+    width: 250px;
+    height: 208px;
+    background-color: #ffea00;
+}
+
+.logoImageContainer{
+    padding: 40px 70px 37px 70px;
+}
+
+.textImgContainerIcon{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+}
+
+.graphic{
+    padding: 40px 70px 16px 70px;
+}
+
+.descriptionPortfolioImg .descriptionImgPortfolio{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+    padding: 27px 38px 30px 25px;
+}
+
+.test{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.btn{
+   display: flex;
+    justify-content: center;
+}
+
+.button{
+    width: 159px;
+    height: 31px;
+    background-color: #424147;
+}
+.button p{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffea00;
+    text-align: center;
+}
+
+.descriptionOurWork{
+    margin-top: 33px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 21px;
+    color: #424146;
+}
