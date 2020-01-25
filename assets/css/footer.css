@@ -167,7 +167,7 @@
     line-height: 32px;
 }
 
-.footerNav:hover{
+.footerNavigation ul li:hover{
     color: white;
     cursor: pointer;
 }
