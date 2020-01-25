@@ -1,0 +1,177 @@
+.footerContainer{
+    background-color: #414146;
+    max-height: 100%;
+}
+
+.generalFooterContainer{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about{
+    padding-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 32px;
+    color: white;
+}
+
+.descriptionUs{
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 21px;
+    width: 410px;
+    height: 98px;
+    color: #ffffff;
+    padding-top: 30px;
+}
+
+.more{
+    background: black;
+    width: 121px;
+    height: 37px;
+    margin-top: 31px;
+}
+
+.line{
+    width: 121px;
+    height: 3px;
+    background: #ffea00;
+}
+
+.more h5{
+    padding: 12px;
+    color: white;
+}
+
+.photoStream{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+    color: white;
+    padding-top: 46px;
+}
+
+.imgAboutUs{
+    width: 400px;
+    height: 152px;
+    padding-top: 24px;
+    padding-bottom: 31px;
+}
+
+.imgAboutUs img{
+    margin: 5px 5px;
+}
+
+.imgSize{
+    width: 120px;
+    height: 70px;
+}
+
+.tweets{
+    max-width: 500px;
+}
+
+.footerTweets{
+    display: flex;
+}
+
+.latestTweets{
+    padding-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 32px;
+    color: white;
+}
+
+.footerTweets{
+    padding-top: 40px;
+}
+
+.descriptionTweets{
+    padding-left: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 21px;
+    color: white;
+}
+
+.social{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 32px;
+    color: white;
+    padding-top: 110px;
+}
+
+.socialIcon{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    margin: 3px 0 0 5px;
+    padding-top: 103px;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.descriptionTweets:hover{
+    color: #ffea00;
+    cursor: pointer;
+}
+
+.follow{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+    color: white;
+    padding-top: 75px;
+}
+
+.followDescription{
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 21px;
+    color: white;
+    padding-top: 10px;
+}
+.widthFollowUs{
+    max-width: 400px;
+}
+
+.followDescription:hover{
+    color: #ffea00;
+    cursor: pointer;
+}
+
+.footerNavigation{
+    display: flex;
+    justify-content: center;
+    background: black;
+
+}
+
+.footerNav{
+    padding: 22px 0 19px;
+    color: darkgray;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.footerNav:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.footerNavigation ul li {
+    margin-left: 80px;
+}

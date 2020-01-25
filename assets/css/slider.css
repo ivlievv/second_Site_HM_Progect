@@ -1,7 +1,7 @@
 .generalContainerSlider{
     display: flex;
     justify-content: space-around;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     margin-top: 39px;
     margin-bottom: 120px;
 }
