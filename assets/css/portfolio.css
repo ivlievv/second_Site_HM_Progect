@@ -67,7 +67,7 @@
     padding: 27px 38px 30px 25px;
 }
 
-.test{
+.portfolioGeneralContainer{
     max-width: 1160px;
     margin: 0 auto;
 }
@@ -86,7 +86,6 @@
     font-size: 18px;
     font-weight: bold;
     line-height: 21px;
-    text-transform: uppercase;
     color: #ffea00;
     text-align: center;
 }

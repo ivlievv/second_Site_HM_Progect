@@ -1,0 +1,53 @@
+.descriptionDesign{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 21px;
+    text-align: center;
+    color: #424146;
+    margin-top: 24px;
+    margin-bottom: 34px;
+}
+
+.workGeneralContainer{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.workGeneralContainer img{
+    width: 265px;
+    height: 268px;
+    margin: 10px 10px;
+
+}
+
+.btnClients{
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+}
+
+.clients{
+    width: 159px;
+    height: 31px;
+    background-color: #424147;
+}
+
+.clients p{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+    color: #ffea00;
+    text-align: center;
+}
+
+.descriptionClients{
+    margin-top: 33px;
+    color: #424146;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 21px;
+}
